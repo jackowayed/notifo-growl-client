@@ -1,7 +1,7 @@
 require 'growl'
 
 post '/' do
-  Growl.notify params[:text], :title => "#{params[:app]} : #{params[:title]}"
+  Growl.notify params[:notifo_message], :title => "#{params[:notifo_service]} : #{params[:notifo_title]}", :sticky => true
 end
 
 get '/' do
