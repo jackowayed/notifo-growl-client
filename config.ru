@@ -7,4 +7,4 @@ disable :run, :reload
 
 require 'notifo-growl-client'
 
-run Sinatra.application
+run Sinatra::Application
